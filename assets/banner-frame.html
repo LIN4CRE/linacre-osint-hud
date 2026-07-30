@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1280px;height:640px;overflow:hidden;background:#05070c;font-family:'Inter',sans-serif;position:relative;color:#e2e8f0}
+.bg{position:absolute;inset:0;background:url('../img/radar-hero.png') center 62%/cover no-repeat;opacity:.9}
+.shade{position:absolute;inset:0;background:linear-gradient(96deg,rgba(5,7,12,.96) 30%,rgba(5,7,12,.55) 62%,rgba(5,7,12,.28))}
+.grid{position:absolute;inset:0;background:linear-gradient(rgba(148,197,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(148,197,255,.04) 1px,transparent 1px);background-size:44px 44px}
+.in{position:relative;z-index:2;padding:70px 0 0 76px}
+.tag{display:inline-flex;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.3em;color:#67e8f9;border:1px solid rgba(34,211,238,.4);background:rgba(8,47,73,.5);padding:9px 18px;border-radius:99px}
+.tag i{width:8px;height:8px;border-radius:50%;background:#34d399;box-shadow:0 0 12px #34d399}
+h1{font-size:112px;font-weight:800;letter-spacing:-.02em;line-height:1;margin:30px 0 20px;color:#f8fafc}
+h1 b{background:linear-gradient(92deg,#22d3ee 10%,#34d399 60%,#a5f3fc);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:800;filter:drop-shadow(0 0 30px rgba(34,211,238,.35))}
+p.sub{font-size:23px;color:#aab7c8;max-width:34ch;line-height:1.55}
+p.sub b{color:#e2e8f0}
+.stats{display:flex;gap:38px;margin:36px 0 0 2px}
+.stats .n{font-family:'JetBrains Mono',monospace;font-size:34px;font-weight:700;color:#f1f5f9;text-shadow:0 0 22px rgba(34,211,238,.4)}
+.stats .l{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.26em;color:#8b98ac;margin-top:5px}
+.chips{position:absolute;left:76px;bottom:66px;display:flex;gap:10px;z-index:2}
+.chips span{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.16em;color:#9aa8bc;border:1px solid rgba(148,197,255,.16);background:rgba(148,163,184,.06);padding:9px 17px;border-radius:99px}
+.brand{position:absolute;right:52px;bottom:58px;z-index:2;display:flex;align-items:center;gap:14px}
+.brand .orb{width:46px;height:46px;border-radius:14px;position:relative;background:linear-gradient(135deg,rgba(34,211,238,.25),rgba(52,211,153,.1));border:1px solid rgba(148,197,255,.3);box-shadow:0 0 26px rgba(34,211,238,.3)}
+.brand .orb::before{content:"";position:absolute;inset:7px;border-radius:50%;border:2px solid rgba(103,232,249,.85)}
+.brand .orb::after{content:"";position:absolute;left:50%;top:50%;width:2.5px;height:15px;background:linear-gradient(#34d399,transparent);transform-origin:top center;transform:rotate(38deg)}
+.brand b{font-size:16px;letter-spacing:.26em;color:#f1f5f9}
+.brand small{display:block;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.3em;color:#22d3ee;margin-top:3px}
+.scan{position:absolute;inset:0;z-index:3;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(255,255,255,.02) 0 1px,transparent 1px 3px)}
+</style>
+</head>
+<body>
+<div class="bg"></div><div class="grid"></div><div class="shade"></div>
+<div class="in">
+  <span class="tag"><i></i>LIVE COLLECTION · OSINT4ALL SYNCED</span>
+  <h1>OSINT <b>HUD</b></h1>
+  <p class="sub">Open-source intelligence, <b>one heads-up display.</b> Every module a tap away.</p>
+  <div class="stats">
+    <div><div class="n">1,310</div><div class="l">TOOLS</div></div>
+    <div><div class="n">77</div><div class="l">CATEGORIES</div></div>
+    <div><div class="n">11</div><div class="l">SECTORS</div></div>
+  </div>
+</div>
+<div class="chips"><span>RECON</span><span>PEOPLE</span><span>SOCIAL</span><span>INFRA</span><span>GEO</span><span>RECORDS</span><span>OPSEC</span><span>BREACH</span></div>
+<div class="brand"><span class="orb"></span><span><b>LINACRE</b><small>LINACRE.SITE</small></span></div>
+<div class="scan"></div>
+</body>
+</html>
