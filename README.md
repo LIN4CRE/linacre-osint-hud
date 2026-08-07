@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://lin4cre.github.io/linacre-osint-hud/">
+  <a href="https://dlinacre.github.io/linacre-osint-hud/">
     <img src="assets/banner.png" alt="Linacre OSINT HUD — 1,310 curated open-source intelligence tools in one dark glass console" width="100%">
   </a>
 </p>
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://lin4cre.github.io/linacre-osint-hud/"><img src="https://img.shields.io/badge/▶%20LAUNCH%20HUD-22d3ee?style=for-the-badge&labelColor=0b1220" alt="Launch the HUD"></a>
+  <a href="https://dlinacre.github.io/linacre-osint-hud/"><img src="https://img.shields.io/badge/▶%20LAUNCH%20HUD-22d3ee?style=for-the-badge&labelColor=0b1220" alt="Launch the HUD"></a>
   <img src="https://img.shields.io/badge/tools-1%2C310-34d399?style=flat-square&labelColor=0b1220" alt="1,310 tools">
   <img src="https://img.shields.io/badge/sectors-11-34d399?style=flat-square&labelColor=0b1220" alt="11 sectors">
   <img src="https://img.shields.io/badge/dependencies-0-a78bfa?style=flat-square&labelColor=0b1220" alt="zero dependencies">
@@ -24,7 +24,7 @@
 
 ## ▶ Live demo
 
-**https://lin4cre.github.io/linacre-osint-hud/**
+**https://dlinacre.github.io/linacre-osint-hud/**
 
 No install, no account, no backend — one self-contained `index.html` you can also download and open locally.
 
@@ -109,7 +109,7 @@ native **CSS nesting** · container queries · `animation-timeline: view()/scrol
 ## 🚀 Run it yourself
 
 ```bash
-git clone https://github.com/LIN4CRE/linacre-osint-hud.git
+git clone https://github.com/DLinacre/linacre-osint-hud.git
 cd linacre-osint-hud
 open index.html        # or just double-click it — no server needed
 ```
